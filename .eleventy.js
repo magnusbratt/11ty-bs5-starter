@@ -25,12 +25,6 @@ module.exports = function(config) {
         // '11ty.js',
     ])
 
-    const markdownItOptions = {
-        html: true,
-        breaks: true,
-        linkify: true
-    }
-
     config.addTransform("htmlmin", function(content, outputPath) {
         if (isProduction && outputPath.endsWith(".html")) {
             let minified = htmlmin.minify(content, {
