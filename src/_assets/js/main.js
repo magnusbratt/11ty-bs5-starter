@@ -17,15 +17,4 @@ import "./_bootstrap.js";
         AOS.init(options);
     });
 
-    $(document).ready(function() {
-        $('.logo-carousel').slick({
-            infinite: true,
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            dots: false,
-        });
-    });
-
 })();
