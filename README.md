@@ -1,4 +1,16 @@
-# 11ty-bs5-starter
+# Mira homepage
+
+Based on 11ty-bs5-starter https://github.com/THoenig/11ty-bs5-starter
+
+## Mira / Magnus
+Scroll to top: https://mdbootstrap.com/docs/standard/extended/back-to-top/
+
+### TODO
+
+Animate on scroll
+
+
+## Original
 
 Bootstrap 5 starter for [11ty](https://www.11ty.dev/). Developed with rapid prototyping, easy customization/theming and fast loading times in mind.
 
@@ -12,7 +24,7 @@ Bootstrap 5 starter for [11ty](https://www.11ty.dev/). Developed with rapid prot
 ## How to get started
 
 ### 1. Clone the repository
-```git clone https://github.com/THoenig/11ty-bs5-starter.git your-project-name```
+```git clone 
 
 ### 2. cd into project directory
 ```cd your-project-name```
